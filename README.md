@@ -1,27 +1,17 @@
-# NebularDemo
+# Angular + Nebular seed project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
+The project is created as a seed for a super quick start with Nebular.
+Could be useful as a starting point for creating https://stackblitz.com examples and bug reports.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Links
 
-## Code scaffolding
+- [Nebular](https://github.com/akveo/nebular)
+- [Angular](https://github.com/angular/angular)
+- [Nebular Stackblitz template](https://stackblitz.com/github/akveo/nebular-seed)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## From Developers
+Made with :heart: by [Akveo team](http://akveo.com?utm_source=github&utm_medium=nebular_readme). Follow us on [Twitter](https://twitter.com/akveo_inc) to get the latest news first!
+We're always happy to receive your feedback!
