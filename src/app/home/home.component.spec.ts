@@ -1,6 +1,9 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
+import { NbDialogService } from '@nebular/theme';
 
 import { HomeComponent } from './home.component';
+
+class MockDialogService { }
 
 describe('HomeComponent', () => {
   let component: HomeComponent;
@@ -8,9 +11,10 @@ describe('HomeComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ HomeComponent ]
+      declarations: [ HomeComponent ],
+      providers: [ {provide: NbDialogService, useClass: MockDialogService} ]
     })
-      .compileComponents();
+    .compileComponents();
   }));
 
   beforeEach(() => {
