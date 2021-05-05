@@ -1,9 +1,7 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
-import { NbButtonModule, NbCardModule, NbDialogModule, NbDialogService, NbThemeModule } from '@nebular/theme';
+import { NbButtonModule, NbCardModule, NbDialogModule, NbThemeModule } from '@nebular/theme';
 
 import { HomeComponent } from './home.component';
-
-class MockDialogService { }
 
 describe('HomeComponent', () => {
   let component: HomeComponent;
@@ -17,8 +15,7 @@ describe('HomeComponent', () => {
         NbButtonModule,
         NbDialogModule.forRoot()
       ],
-      declarations: [ HomeComponent ],
-      providers: [ {provide: NbDialogService, useClass: MockDialogService} ]
+      declarations: [ HomeComponent ]
     })
     .compileComponents();
   }));
