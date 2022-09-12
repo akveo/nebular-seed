@@ -22,7 +22,7 @@
     "@angular/router": "~12.2.13",
     "@nebular/auth": "^9.0.3",
     "@nebular/date-fns": "^9.0.3",
-    "@nebular/eva-icons": "9.0.3",
+    "@nebular/eva-icons": "^9.0.3",
     "@nebular/firebase-auth": "^9.0.3",
     "@nebular/moment": "^9.0.3",
     "@nebular/security": "^9.0.3",
@@ -53,6 +53,6 @@
     "protractor": "~7.0.0",
     "ts-node": "~7.0.0",
     "tslint": "~6.1.0",
-    "typescript": "~4.3.5"
+    "typescript": "~4.6.4"
   }
 }
