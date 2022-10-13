@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { NbPosition } from '@nebular/theme';
 
 @Component({
   selector: 'app-root',
@@ -11,4 +12,5 @@ export class AppComponent {
       title: 'Logout',
     },
   ];
+  contextMenuPlacement = NbPosition.BOTTOM;
 }
