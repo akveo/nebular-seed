@@ -70,18 +70,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "nebular-demo:build"
+            "buildTarget": "nebular-demo:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "nebular-demo:build:production"
+              "buildTarget": "nebular-demo:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "nebular-demo:build"
+            "buildTarget": "nebular-demo:build"
           }
         },
         "test": {
